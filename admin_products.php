@@ -102,8 +102,8 @@ if(isset($_GET['delete'])){
             <option value="" selected disabled>select category</option>
                <option value="Men">Men</option>
                <option value="Women">Women</option>
-               <option value="Girls">Girls</option>
-               <option value="Boys">Boys</option>
+               <option value="Kids">Kids</option>
+              
                <option value="Babys">Babys</option>
          </select>
          </div>

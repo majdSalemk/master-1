@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
 *{
    font-family: 'Rubik', sans-serif;
@@ -102,46 +103,50 @@ section{
    font-size: 3.5rem;
 }
 
-.message{
+.message {
    position: sticky;
-   top:0;
+   top: 0;
    max-width: 1200px;
-   margin:0 auto;
-   background-color:#c9b285;
-   padding:2rem;
+   margin: 0 auto;
+   background-color: #f5f5dc; /* بيج فاتح */
+   padding: 2rem;
    display: flex;
    align-items: center;
    justify-content: space-between;
-   gap:1.5rem;
+   gap: 1.5rem;
    z-index: 10000;
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
-.message span{
+.message span {
    font-size: 2rem;
-   color: rgb(165, 159, 129);
+   color: #a59f81; /* رمادي غامق */
 }
 
-.message i{
+.message i {
    font-size: 2.5rem;
    cursor: pointer;
-   color:#e74c3c;
+   color: #e74c3c;
 }
 
-.message i:hover{
-   color:#333;
+.message i:hover {
+   color: #333;
 }
 
-.empty{
-   padding:1.5rem;
-   background: rgb(158, 142, 120);
-   color:#e74c3c;
+
+
+.empty {
+   padding: 1.5rem;
+   background: #f5f5dc; /* بيج فاتح */
+   color: #e74c3c;
    border-radius: .5rem;
-   border: 2rem solid grey;
+   border: 0.2rem solid grey;
    font-size: 2rem;
    text-align: center;
-    box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
    text-transform: capitalize;
 }
+
 
 @keyframes fadeIn {
    0%{
@@ -149,199 +154,236 @@ section{
    }
 }
 
-.form-container{
+/* تحسين تنسيق النموذج في .form-container */
+.form-container {
    min-height: 100vh;
    display: flex;
    align-items: center;
    justify-content: center;
 }
 
-.form-container form{
+.form-container form {
    width: 50rem;
-   background-color: rgb(158, 142, 120);
+   background-color: #f9f6f1; /* لون بيج فاتح */
    border-radius: .5rem;
-   box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
-   border:.2rem solid grey;
+   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+   border: .2rem solid #574c43; /* بني داكن */
    text-align: center;
-   padding:2rem;
+   padding: 2rem;
 }
 
-.form-container form h3{
+.form-container form h3 {
    font-size: 3rem;
-   color:rgb(165, 159, 129);
+   color: #8b6f41; /* بني أغمق */
    margin-bottom: 1rem;
    text-transform: uppercase;
 }
 
-.form-container form .box{
+.form-container form .box {
    width: 100%;
-   margin:1rem 0;
+   margin: 1rem 0;
    border-radius: .5rem;
-   border:.2rem solid grey;
-   padding:1.2rem 1.4rem;
+   border: .2rem solid #574c43; /* بني داكن */
+   padding: 1.2rem 1.4rem;
    font-size: 1.8rem;
-   color:rgb(165, 159, 129);
-   background-color:#c9b285;
+   color: #8b6f41; /* بني أغمق */
+   background-color: #c9b285;
 }
 
-.form-container form p{
+.form-container form p {
    margin-top: 2rem;
    font-size: 2.2rem;
-   color:#b26823;
+   color: #8b6f41; /* بني أغمق */
 }
 
-.form-container form p a{
-   color:burlywood;
+.form-container form p a {
+   color: #b26823;
 }
 
-.form-container form p a:hover{
+.form-container form p a:hover {
    text-decoration: underline;
 }
 
-.header{
-   background: rgb(158, 142, 120);
-   position: sticky;
-   top:0; left:0; right:0;
-   z-index: 1000;
-   box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+
+/* Add the Montserrat font to your existing CSS */
+body {
+   font-family: 'Montserrat', sans-serif;
+}
+/* Add the Montserrat font to your existing CSS */
+body {
+   font-family: 'Montserrat', sans-serif;
 }
 
-.header .flex{
+.header {
+   background: rgb(158, 142, 120);
+   position: sticky;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 1000;
+   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.header .flex {
    display: flex;
    align-items: center;
    justify-content: space-between;
-   padding:2rem;
+   padding: 2rem;
    margin: 0 auto;
    max-width: 1200px;
    position: relative;
 }
 
-.header .flex .logo{
+
+.header .flex .logo {
    font-size: 2.5rem;
-   color:rgb(165, 159, 129);
+   color: burlywood; /* تغيير لون الشعار ليكون متناسقًا مع الناف بار */
 }
 
-.header .flex .logo span{
-   color:burlywood;
+.header .flex .logo span {
+   color: rgb(251, 249, 247);
 }
 
-.header .flex .navbar a{
-   margin:0 1rem;
+.header .flex .navbar a {
+   margin: 0 1rem;
    font-size: 2rem;
-   color:#b26823;
+   color: #fff;
+   text-decoration: none;
+   font-family: 'YourFont', sans-serif;
 }
 
-.header .flex .navbar a:hover{
+.header .flex .navbar a:hover {
    text-decoration: underline;
-   color:burlywood;
+   color: burlywood;
 }
 
-.header .flex .icons > *{
+.header .flex .icons > * {
    font-size: 2.5rem;
-   color:#b26823;
+   color: #fff;
    cursor: pointer;
    margin-left: 1.5rem;
 }
 
-.header .flex .icons > *:hover{
-   color:burlywood;
+.header .flex .icons > *:hover {
+   color: burlywood;
 }
 
 .header .flex .icons a span,
-.header .flex .icons a i{
-   color:#b26823;
+.header .flex .icons a i {
+   color: #fff;
 }
 
 .header .flex .icons a:hover span,
-.header .flex .icons a:hover i{
-   color:burlywood;
+.header .flex .icons a:hover i {
+   color: burlywood;
 }
 
-.header .flex .icons a span{
+.header .flex .icons a span {
    font-size: 2rem;
 }
+
+.header .flex .navbar {
+   display: flex;
+   align-items: center;
+}
+
+.header .flex .navbar a {
+   margin: 0 1.5rem;
+   text-transform: uppercase;
+}
+
+.header .flex .navbar a:hover {
+   text-decoration: none;
+}
+
+
 
 #menu-btn{
    display: none;
 }
 
-.header .flex .profile{
+/* تنسيق صندوق الملف الشخصي في الهيدر */
+.header .flex .profile {
    position: absolute;
-   top:120%; right:2rem;
-   box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
-   border:.2rem solid grey;
+   top: 120%;
+   right: 2rem;
+   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+   border: .2rem solid #574c43; /* بني داكن */
    border-radius: .5rem;
-   padding:2rem;
+   padding: 2rem;
    text-align: center;
-   background-color: rgb(158, 142, 120);
+   background-color: #f9f6f1; /* لون بيج فاتح */
    width: 33rem;
    display: none;
    animation: fadeIn .2s linear;
 }
 
-.header .flex .profile.active{
+.header .flex .profile.active {
    display: inline-block;
 }
 
-.header .flex .profile img{
+.header .flex .profile img {
    height: 15rem;
    width: 15rem;
    margin-bottom: 1rem;
    border-radius: 50%;
    object-fit: cover;
+   border: 0.2rem solid #574c43; /* بني داكن */
 }
 
-.header .flex .profile p{
-   padding:.5rem 0;
+.header .flex .profile p {
+   padding: .5rem 0;
    font-size: 2rem;
-   color:#b26823;
+   color: #8b6f41; /* بني أغمق */
 }
 
-.update-profile form{
+.update-profile form {
    max-width: 70rem;
    margin: 0 auto;
-   background-color: rgb(158, 142, 120);
-   box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
-   border:.2rem solid grey;
+   background-color: #f9f6f1; /* لون بيج فاتح */
+   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+   border: .2rem solid #574c43; /* بني داكن */
    border-radius: .5rem;
-   padding:2rem;
+   padding: 2rem;
    text-align: center;
 }
 
-.update-profile form .flex{
+.update-profile form .flex {
    display: flex;
-   gap:1.5rem;
-   justify-content: space-between;
+   gap: 2rem;
+   justify-content: center;
+   flex-wrap: wrap;
 }
 
-.update-profile form img{
+.update-profile form img {
    height: 20rem;
    width: 20rem;
-   margin-bottom: 1rem;
+   margin-bottom: 2rem;
    border-radius: 50%;
    object-fit: cover;
+   border: 0.2rem solid #574c43; /* بني داكن */
 }
 
-.update-profile form .inputBox{
+.update-profile form .inputBox {
    text-align: left;
-   width: 49%;
+   width: calc(50% - 1rem);
+   margin-bottom: 2rem;
 }
 
-.update-profile form .inputBox span{
+.update-profile form .inputBox span {
    display: block;
    padding-top: 1rem;
    font-size: 1.8rem;
-   color:#b26823;
+   color: #8b6f41; /* بني أغمق */
 }
 
-.update-profile form .inputBox .box{
+.update-profile form .inputBox .box {
    width: 100%;
-   padding:1.2rem 1.4rem;
+   padding: 1.2rem 1.4rem;
    font-size: 1.8rem;
-   color:rgb(165, 159, 129);
-   border:.2rem solid grey;
+   color: #574c43; /* بني داكن */
+   border: .2rem solid #8b6f41;
    border-radius: .5rem;
-   margin:1rem 0;
    background-color: #c9b285;
 }
 
@@ -357,56 +399,66 @@ section{
 
 
 
-.footer{
+.footer {
    background-color: rgb(158, 142, 120);
+   padding: 2rem 0;
 }
 
-.footer .box-container{
+.footer .box-container {
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-   gap:2.5rem;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   gap: 2.5rem;
    align-items: flex-start;
+   justify-content: center;
+   max-width: 1200px;
+   margin: 0 auto;
 }
 
-.footer .box-container .box h3{
+.footer .box-container .box {
+   text-align: center;
+}
+
+.footer .box-container .box h3 {
    text-transform: uppercase;
-   color: rgb(165, 159, 129);
-   margin-bottom: 2rem;
-   font-size: 2rem;
+   color: #fff;
+   margin-bottom: 1.5rem;
+   font-size: 1.8rem;
 }
 
 .footer .box-container .box a,
-.footer .box-container .box p{
+.footer .box-container .box p {
    display: block;
-   padding:1.3rem 0;
-   font-size: 1.6rem;
-   color:#b26823;
+   padding: 1rem 0;
+   font-size: 1.4rem;
+   font-weight: bold;
+   color: #181716;
+   text-decoration: none;
 }
 
 .footer .box-container .box a i,
-.footer .box-container .box p i{
-   color:burlywood;
-   padding-right: 1rem;
+.footer .box-container .box p i {
+   color: burlywood;
+   margin-right: 1rem;
 }
 
-.footer .box-container .box a:hover{
+.footer .box-container .box a:hover {
    text-decoration: underline;
-   color:burlywood;
+   color: burlywood;
 }
 
-.footer .credit{
+.footer .credit {
    margin-top: 2rem;
    padding: 2rem 1.5rem;
    padding-bottom: 2.5rem;
    line-height: 1.5;
-   border-top: 2rem solid grey;
+   border-top: 2rem solid #ddd;
    text-align: center;
-   font-size: 2rem;
-   color: rgb(165, 159, 129);
+   font-size: 1.8rem;
+   color: #fff;
 }
 
-.footer .credit span{
-   color:burlywood;
+.footer .credit span {
+   color: burlywood;
 }
 
 

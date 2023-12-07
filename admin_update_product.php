@@ -94,8 +94,8 @@ if(isset($_POST['update_product'])){
          <option selected><?= $fetch_products['category']; ?></option>
          <option value="Men">Men</option>
          <option value="Women">Women</option>
-         <option value="Girls">Girls</option>
-         <option value="Boys">Boys</option>
+         <option value="Kids">Kids</option>
+        
          <option value="Babys">Babys</option>
       </select>
       <textarea name="details" required placeholder="enter product details" class="box" cols="30" rows="10"><?= $fetch_products['details']; ?></textarea>

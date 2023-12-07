@@ -97,11 +97,11 @@ if(isset($_POST['add_to_cart'])){
 
 <section class="p-category">
 
-   <a href="category.php?category=Men">Men</a>
+   <!-- <a href="category.php?category=Men">Men</a>
    <a href="category.php?category=Women">Women</a>
-   <a href="category.php?category=Girls">Girls</a>
-   <a href="category.php?category=Boys">Boys</a>
-   <a href="category.php?category=Babys">Babys</a>
+   <a href="category.php?category=Kids">Kids</a> -->
+   <!-- <a href="category.php?category=Boys">Boys</a> -->
+   <!-- <a href="category.php?category=Babys">Babys</a> -->
 
 </section>
 

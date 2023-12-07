@@ -18,12 +18,12 @@ if(!isset($user_id)){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>about</title>
+   <title>About</title>
 
-   <!-- font awesome cdn link  -->
+   <!-- Font Awesome CDN link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
-   <!-- custom css file link  -->
+   <!-- Custom CSS file link  -->
    <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -31,117 +31,32 @@ if(!isset($user_id)){
    
 <?php include 'header.php'; ?>
 
-<section class="about">
+<section class="abut">
 
    <div class="row">
 
-      <div class="box">
-         
-         <img src="images/cta-blog-small-83826fb88f35dc2fb54aba4d74514088e113410c15f50cfe0703749d9190a5d3.jpg" alt="">
-         <h3>why choose us?</h3>
-         <p>"Your Style, Your Choice: Count on us to cater to your unique style and fashion preferences with our diverse range of products."</p>
-         <a href="contact.php" class="btn">contact us</a>
+      <div class="abut-box">
+         <img src="images/about-2.jpg" alt="" class="abut-img">
+         <div class="abut-content">
+            <h3>Why Choose Us?</h3>
+            <p>"Your Style, Your Choice: Count on us to cater to your unique style and fashion preferences with our diverse range of products."</p>
+         </div>
       </div>
 
-      <div class="box">
-         
-         <img src="images/شراء-متجر-الكتروني.jpg" alt="">
-         <h3>what we provide?</h3>
-         <p>"Wide Range of Trendy Clothing: Explore our collection for a diverse selection of the latest fashion trends."</p>
-         <a href="shop.php" class="btn">our shop</a>
+      <div class="abut-box">
+         <img src="images/about-3.jpg" alt="" class="abut-img">
+         <div class="abut-content">
+            <h3>What We Provide?</h3>
+            <p>"Wide Range of Trendy Clothing: Explore our collection for a diverse selection of the latest fashion trends."</p>
+         </div>
       </div>
 
    </div>
 
 </section>
+</body>
+</html>
 
-<!-- <section class="reviews">
-
-   <h1 class="title">clients reivews</h1>
-
-   <div class="box-container">
-
-      <div class="box">
-         <img src="images/pic-1.png" alt="">
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et voluptates sit earum, neque non cupiditate amet deserunt aperiam quas ex.</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>john deo</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/pic-2.png" alt="">
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et voluptates sit earum, neque non cupiditate amet deserunt aperiam quas ex.</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>john deo</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/pic-3.png" alt="">
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et voluptates sit earum, neque non cupiditate amet deserunt aperiam quas ex.</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>john deo</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/pic-4.png" alt="">
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et voluptates sit earum, neque non cupiditate amet deserunt aperiam quas ex.</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>john deo</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/pic-5.png" alt="">
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et voluptates sit earum, neque non cupiditate amet deserunt aperiam quas ex.</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>john deo</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/pic-6.png" alt="">
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et voluptates sit earum, neque non cupiditate amet deserunt aperiam quas ex.</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>john deo</h3>
-      </div>
-
-   </div>
-
-</section> -->
 
 
 

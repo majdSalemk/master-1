@@ -1,4 +1,5 @@
 <?php
+@include 'config.php';
 
 if(isset($message)){
    foreach($message as $message){
@@ -16,8 +17,10 @@ if(isset($message)){
 <header class="header">
 
    <div class="flex">
-
-      <a href="admin_page.php" class="logo">Savy Style Outlet<span>.</span></a>
+        <!-- <div class="logo">
+      <a href="admin_page.php" >
+         <img src="images/logo.png" alt="logo"></a></div> -->
+         <a href="admin_page.php" class="logo">Savy Style <span>Outlet.</span></a>
 
       <nav class="navbar">
          <a href="home.php">home</a>

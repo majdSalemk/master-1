@@ -86,6 +86,8 @@ if(isset($_POST['add_to_cart'])){
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
@@ -118,48 +120,49 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
          <!-- <img src="images/cat-1.png" alt=""> -->
-         <img src="images/تنسيق-ألوان-.jpeg" alt="">
+         <img src="images/man.jpg" alt="">
          <h3>Men</h3>
          <p></p>
-         <a href="category.php?category=Men" class="btn">Men</a>
+         <a href="category.php?category=Men" class="btn">View</a>
       </div>
 
       <div class="box">
          <!-- <img src="images/cat-2.png" alt=""> -->
-         <img src="images/images.jpeg" alt="">
+         <img src="images/women.jpg" alt="">
          <h3>Women</h3>
          <p></p>
-         <a href="category.php?category=Women" class="btn">Women</a>
+         <a href="category.php?category=Women" class="btn">View</a>
       </div>
 
       <div class="box">
          <!-- <img src="images/cat-3.png" alt=""> -->
-         <img src="images/images-removebg-preview.png" alt="">
-         <h3>Girls</h3>
+         <img src="images/kids.jpg" alt="">
+         <h3>Kids</h3>
          <p></p>
-         <a href="category.php?category=Girls" class="btn">Girls</a>
+         <a href="category.php?category=Kids" class="btn">View</a>
       </div>
       
-      <div class="box">
-         <!-- <img src="images/cat-3.png" alt=""> -->
-         <img src="images/51c935c26f4ef1d240bba6998e7cf8e1--boy-fashion-spring-fashion-removebg-preview.png" alt="">
-         <h3>Boys</h3>
-         <p></p>
-         <a href="category.php?category=Boys" class="btn">Boys</a>
-      </div>
-
+     
       <div class="box">
          <!-- <img src="images/cat-4.png" alt=""> -->
-         <img src="images/R_UNIQLO_SUM_15_B06_0046_d_600ppi-removebg-preview.png" alt="">
+         <img src="images/baby.jpg" alt="">
          <h3>Babys</h3>
          <p></p>
-         <a href="category.php?category=Babys" class="btn">Babys</a>
+         <a href="category.php?category=Babys" class="btn">View</a>
       </div>
 
    </div>
 
 </section>
-
+<section class="about-section">
+        <img class="about-image" src="images/abut.jpg" alt="About Us Image">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>Welcome to Savy Style Outlet. your go-to place for the latest fashion trends. We strive to provide high-quality clothing that suits your style. Our diverse collection caters to Men, Women, Girls, Boys, and even the little Babys.</p>
+        </div>
+        
+    </section>
+  
 <!-- <section class="products">
 
    <h1 class="title">latest products</h1>
